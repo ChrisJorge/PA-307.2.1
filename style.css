@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    background-color: rgb(19, 17, 17)
+}
+
+.topBar{
+    background-color: #373434b9;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.companyLogo{
+    display: flex;
+    height: 150px;
+    margin: 0%;
+    padding-left: 15px;
+}
+
+.companyLogo svg{
+    align-self: center;
+    padding-right: 10px;
+    color: aliceblue;
+}
+
+.companyLogo p{
+    font-family:"Tangerine", cursive;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.options{
+    display: flex;
+}
+
+.options button{
+    padding: 15px;
+    align-self: center;
+    margin-right: 25px;
+}
+
+
