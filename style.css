@@ -41,6 +41,13 @@ body{
     margin-right: 25px;
 }
 
+.logInForm{
+    border: solid black;
+}
+
+button:hover{
+    background-color: aqua;
+}
 
 .adOne{
     margin-top: 150px;
@@ -101,4 +108,11 @@ body{
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.adThree{
+    height: 100vh;
+    background-image: url("https://www.modifiedrides.net/medias/images/ford-gt-mkii-photo-credit-mecum-100784712-h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
