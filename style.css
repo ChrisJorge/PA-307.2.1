@@ -73,6 +73,14 @@ body{
     
 }
 
+.logInForm svg{
+    color: aliceblue
+}
+
+.logInForm h3{
+    color: aliceblue;
+}
+
 .submit{
     margin-top: 15px;
 }
