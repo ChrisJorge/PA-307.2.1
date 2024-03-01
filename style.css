@@ -120,7 +120,7 @@ body{
 }
 .adTwo{
     height: 100vh;
-    background-image: url("https://luxrestyling.com/wp-content/uploads/2023/10/20230110_104912-scaled-1.jpg");
+    background-image: url("./images/f8_inside.webp");
     background-size: cover;
     display: flex;
     justify-content: right;
@@ -148,7 +148,7 @@ body{
 
 .adThree{
     height: 100vh;
-    background-image: url("https://www.modifiedrides.net/medias/images/ford-gt-mkii-photo-credit-mecum-100784712-h.jpg");
+    background-image: url("./images/ford_gt.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
