@@ -3,14 +3,18 @@ body{
     background-color: rgb(19, 17, 17)
 }
 
-.topBar{
+.topcontainer{
     background-color: #373434b9;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+}
+.topBar{
+    display: flex;
+    justify-content: space-evenly;
 }
 .companyLogo{
     display: flex;
@@ -31,8 +35,14 @@ body{
     color: aliceblue;
 }
 
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .options{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .options button{
@@ -41,12 +51,30 @@ body{
     margin-right: 25px;
 }
 
-.logInForm{
-    border: solid black;
+.logInContainer{
+    display: flex;
+    justify-content: right;
 }
 
-button:hover{
-    background-color: aqua;
+.visible{
+    display: none;
+}
+
+
+.logInForm{
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.submit{
+    margin-top: 15px;
 }
 
 .adOne{
