@@ -55,20 +55,50 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 .heading h3{
     color: aliceblue;
     font-size: 45px;
+    font-weight: bolder;
 }
 
-
+.description{
+    width: 60%;
+}
 .description p{
     color: white;
     font-size: 22px;
+    padding-left: 30px;
 }
 
+.breakUp{
+    color: aliceblue;
+}
 .adTwo{
     height: 100vh;
     background-image: url("https://luxrestyling.com/wp-content/uploads/2023/10/20230110_104912-scaled-1.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: right;
+}
+
+.breakUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: 20px;
+}
+
+.body{
+    display: flex;
+}
+
+.body p{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
