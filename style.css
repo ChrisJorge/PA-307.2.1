@@ -283,6 +283,7 @@ body{
         font-size: 18px;
     }
 
+    /* First Section CSS */
     .adOne{
         margin-top: 150px;
         height: 50vh;
@@ -291,5 +292,11 @@ body{
 
     .content{
         width: 100%;
+    }
+
+    .breakUpBody p{
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 15px;
     }
 }
