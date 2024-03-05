@@ -226,3 +226,31 @@ body{
         background-position: center;
     }
 }
+
+
+
+@media (max-width: 299px){
+    .companyLogo{
+        width: 40%;
+        padding-left: 1px;
+    }
+
+    .option{
+        width: 50%;
+    }
+    
+    .companyLogo svg{
+        display: none;
+        padding-right: 1px;
+    }
+    
+    .companyLogo p{
+        font-size: 30px;
+    }
+    
+    .options{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
