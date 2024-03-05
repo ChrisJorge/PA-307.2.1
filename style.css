@@ -230,13 +230,20 @@ body{
 
 
 @media (max-width: 299px){
-    .companyLogo{
-        width: 40%;
-        padding-left: 1px;
+     /* Nav Bar CSS */
+
+.topcontainer{
+    width: 280px;
+}
+    
+     .topBar{
+        display: flex;
+        justify-content: flex-start;
     }
 
-    .option{
+    .companyLogo{
         width: 50%;
+        padding-left: 1px;
     }
     
     .companyLogo svg{
@@ -250,7 +257,23 @@ body{
     
     .options{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        width: 100px;
     }
 
+    button{
+        margin-right: 0%;
+        padding-right: 0%;
+    }
+
+
+    .adOne{
+        margin-top: 150px;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .content{
+        width: 100%;
+    }
 }
