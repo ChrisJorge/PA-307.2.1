@@ -294,9 +294,20 @@ body{
         width: 100%;
     }
 
+    /* CSS For Section Breaks */
     .breakUpBody p{
         font-size: 10px;
         padding-left: 0px;
         padding-right: 15px;
+    }
+
+    /* CSS For Second Section */
+    .adTwo{
+        height: 50vh;
+        background-position: center;
+    }
+
+    .adTwo .heading{
+        text-align: center;
     }
 }
