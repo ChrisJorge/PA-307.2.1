@@ -151,11 +151,15 @@ body{
 }
 
 /* CSS For Smaller Screens */
-@media (max-width: 500px){
+@media (min-width: 300px) and (max-width: 800px){
     /* Nav Bar CSS */
     .companyLogo{
         width: 70%;
         padding-left: 1px;
+    }
+
+    .option{
+        width: 30%;
     }
     
     .companyLogo svg{
@@ -191,6 +195,9 @@ body{
 
     /*  Text CSS*/
     .heading h3{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
         font-size: 25px;
     }
 
@@ -200,7 +207,15 @@ body{
 
     .description p{
         font-weight: 600;
+        font-size: 18px;
     }
+
+   /* Section Breaks CSS */
+   .breakUpBody p{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
     .adTwo{
         height: 50vh;
