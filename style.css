@@ -89,6 +89,7 @@ body{
     background-image: url("./images/Urus_Wrapped.jpg");
     background-size: cover;
     display: flex;
+    background-position: center;
 }
 
 .content{
@@ -102,6 +103,7 @@ body{
     color: aliceblue;
     font-size: 45px;
     font-weight: bolder;
+    margin-left: 4%;
 }
 
 .description{
@@ -140,6 +142,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: right;
+    background-position: center;
 }
 
 /* Section Two CSS */
@@ -148,6 +151,7 @@ body{
     background-image: url("./images/ford_gt.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /* CSS For Smaller Screens */
@@ -208,6 +212,8 @@ body{
     .description p{
         font-weight: 600;
         font-size: 18px;
+        padding-right: 5px;
+        
     }
 
    /* Section Break CSS */
@@ -217,13 +223,20 @@ body{
     padding-right: 15px;
 }
 
+    /*CSS For Second Section  */
     .adTwo{
         height: 50vh;
         background-position: center;
     }
 
+    /* CSS For Third Section */
+
     .adThree{
         background-position: center;
+    }
+
+    .adThree .heading{
+        margin-top: 5%;
     }
 }
 
@@ -281,6 +294,8 @@ body{
     .description p{
         font-weight: 600;
         font-size: 18px;
+        padding-left: 15px;
+        padding-right: 5px;
     }
 
     /* First Section CSS */
@@ -309,5 +324,16 @@ body{
 
     .adTwo .heading{
         text-align: center;
+        margin-top: 2%;
+    }
+
+    /* CSS For Third Section */
+
+    .adThree{
+        background-position: center;
+    }
+
+    .adThree .heading{
+        margin-top: 15%;
     }
 }
